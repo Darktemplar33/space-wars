@@ -41,7 +41,7 @@ public class UnitMovement : MonoBehaviour
                 float angle = 60; // angular step
                 int countOnCircle = (int)(360 / angle); // max number in one round
                 int count = meshAgents.Count; // number of agents
-                float step = 1; // circle number
+                float step = 2; // circle number
                 int i = 1; // agent serial number
                 float randomizeAngle = Random.Range(0, angle);
                 while (count > 1)
